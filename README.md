@@ -20,15 +20,27 @@ docker-compose up
 ### Jupyter-Notebooks
 1. Run locally via Jupyter Notebooks.
 
-## Predict the Price of an ICO - NO TRAINING REQUIRED, USING PRE-TRAINED MODEL.
+## Examples 
+### Predict the Price of an ICO - NO TRAINING REQUIRED, USING PRE-TRAINED MODEL.
 Run the following sections of Code: 
 - Library Imports and creating useful functions.
 - Create Folders if Necessary and download dateset.
 - Loading ICO dataset into variables.
 - Encoding and Splitting of Data.
-- Linear Regression.
+- Linear Regression/Neural Network. 
     - Load Saved Linear Regression Models and Print out performance.
     - Use Model to make prediction - Value of ICO after 6 months.
-- Neural Network.
-    - Load Saved Neural Network Models and Print out performance.
-    - Use Model to make prediction - Value of ICO after 6 months.
+     ```
+     # Load model with best rMse and make prediction
+     fileName = "results/" + "bestRegressionModel_" + str(LineaReggressionMetrics.ROOT_MEAN_SQUARED_ERROR.name) + ".sav"
+     bestRegression = joblib.load(fileName)
+
+     #Example ICO
+  #price_usd,price_btc,total_supply,market_cap_usd,available_supply,usd_raised,eth_price_launch,btc_price_launch,ico_duration,month,day,country
+     example_x = np.array([1.71456,0.00019931,1000000000,905793616,528295082,24000000,297.63,3420.4,7,8,9,182])
+
+     y_pred = makePrediction(bestRegression,example_x)
+
+     print("Predicted value of example ICO after 6 months: ",y_pred )
+     ```
+  *Replace Example ICO with your ICO to predict.*
