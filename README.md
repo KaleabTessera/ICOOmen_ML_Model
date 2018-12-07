@@ -43,4 +43,4 @@ Run the following sections of Code:
 
      print("Predicted value of example ICO after 6 months: ",y_pred )
      ```
-  *Replace Example ICO with your ICO to predict.*
+  *Replace Example ICO with your ICO to predict. Use dataset/Country_Number_Mapping - Sheet1.csv to map a country to a number.*
