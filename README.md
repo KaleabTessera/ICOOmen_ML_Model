@@ -1,4 +1,5 @@
 # ICOOmen_ML_Model
+![ICO - When Moon](https://dashnews.org/wp-content/uploads/2018/07/bitcoin-ico.jpg)
 
 ## Introduction
 In this project, we propose IcoOmen, a machine learning model which will
@@ -21,3 +22,16 @@ docker-compose up
 
 ### Jupyter-Notebooks
 1. Run locally via Jupyter Notebooks.
+
+## Predict the Price of an ICO - NO TRAINING REQUIRED, USING PRE-TRAINED MODEL.
+Run the following sections of Code: 
+- Library Imports and creating useful functions.
+- Create Folders if Necessary and download dateset.
+- Loading ICO dataset into variables.
+- Encoding and Splitting of Data.
+- Linear Regression.
+    - Load Saved Linear Regression Models and Print out performance.
+    - Use Model to make prediction - Value of ICO after 6 months.
+- Neural Network.
+    - Load Saved Neural Network Models and Print out performance.
+    - Use Model to make prediction - Value of ICO after 6 months.
