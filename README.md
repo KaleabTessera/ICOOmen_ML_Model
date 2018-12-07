@@ -7,7 +7,7 @@ data that has been aggregated from various public websites and APIs, as well as 
 
 ## Getting Started: 
 ### Google Colab
-1. Click on the link on the top of ICOData.ipynb.
+1. Click on the link on the top of ICOData.ipynb or click [here](https://colab.research.google.com/github/KaleabTessera/ICOOmen_ML_Model/blob/master/ICOData.ipynb).
 
 ### Docker
 1. Install Docker and Docker-Compose 
