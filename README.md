@@ -1,7 +1,9 @@
 # ICOOmen_ML_Model
-IcoOmen, a machine learning model which will
-predict the value of an ICO token after 6 months. This uses historic
+IcoOmen, a machine learning model which
+predicts the value of an ICO token after 6 months. This uses historic
 data that has been aggregated from various public websites and APIs, as well as data that has been manually collected and calculated.
+
+![](https://dashnews.org/wp-content/uploads/2018/07/bitcoin-ico.jpg)
 
 ## Getting Started: 
 ### Google Colab
