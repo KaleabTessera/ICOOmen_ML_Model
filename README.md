@@ -32,7 +32,7 @@ Run the following sections of Code:
 - Linear Regression/Neural Network. 
     - Load Saved Linear Regression Models and Print out performance.
     - Use Model to make prediction - Value of ICO after 6 months.
-     ```
+     ```python
      # Load model with best rMse and make prediction
      fileName = "results/" + "bestRegressionModel_" + str(LineaReggressionMetrics.ROOT_MEAN_SQUARED_ERROR.name) + ".sav"
      bestRegression = joblib.load(fileName)
