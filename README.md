@@ -3,6 +3,8 @@ IcoOmen, a machine learning model which
 predicts the value of an ICO token after 6 months. This uses historic
 data that has been aggregated from various public websites and APIs, as well as data that has been manually collected and calculated.
 
+Article can be found [here](https://towardsdatascience.com/icoomen-using-machine-learning-to-predict-ico-prices-29fa4cec6d86).
+
 ![](https://dashnews.org/wp-content/uploads/2018/07/bitcoin-ico.jpg)
 
 ## Getting Started: 
